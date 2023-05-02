@@ -1,0 +1,89 @@
+@media(max-width: 1399px){
+.about-content{
+    padding-left: 20px;
+  }
+}
+@media(max-width: 1199px){
+  header nav{
+    display: block;
+  }
+}
+@media(max-width: 991px){
+  .w-xl-3{
+    width: 33.33%;
+  }
+  header{
+    position: relative;
+  }
+  .toggle{
+    display: block;
+  }
+  header nav{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background:#B1D4E0;
+  }
+  header nav ul{
+    flex-direction: column;
+  }
+  .banner-title{
+    margin-bottom: 50px;
+  }
+  .about-img{
+    margin-bottom: 50px;
+  }
+  .w-md-1{
+    width: 100%;
+  }
+  .why-us-content{
+    margin-bottom: 50px;
+  }
+  .w-md-2{
+    width: 50%;
+  }
+  .footer-items:nth:child(2){
+    margin-bottom: 50px!important;
+  }
+  .w-md-3{
+    width: 33.33%;
+  }
+  .logo-img{
+    margin: 20px 0!important;
+  }
+  .appoinment-items:last-child .btn-1{
+    left: 0!important;
+    margin-top: 20px;
+  }
+  header nav{
+    display: none;
+  }
+}
+@media(max-width: 767px){
+  .w-sm-1{
+    width:100%;
+  }
+  .experience-img{
+    display: none;
+  }
+  .about-content{
+    padding: 10px 0;
+  }
+  header nav{
+    display: none;
+  }
+  .footer-item{
+    text-align: center;
+  }
+  .footer-item p{
+    margin: 0 auto;
+  }
+}
+@media(max-width:575px){
+
+  .w-xs-1{
+    width: 100%;
+  }
+  
+}
